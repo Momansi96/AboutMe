@@ -6,10 +6,17 @@ h3{background-color:darkgreen;color: aqua;
   font-size: larger;text-align: center;}
 
 #intro{background-color: darkred;color: dimgrey;
-  display: inline-block;
+  display: inline-block; border: black solid; width: 580px;
+  height: 150px;
 }
-footer{text-align: center;color: gold;}
+
+#exp{display: block; border:solid yellow; text-align: center;}
+
+footer{text-align: center;color: red; font-weight: bolder;}
 
 ol{background-color: blueviolet; color: black;
 display: inline-block;
 }
+body{background-color: wheat; opacity: 0.9;}
+
+#top{border: solid blue; text-align: center;}

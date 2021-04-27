@@ -1,8 +1,8 @@
 'use strict';
 
-let userName = prompt('What is your name?'); 
-alert('Hi ' + userName + ' and welcome to this small quiz.')
- let score = 0; 
+// let userName = prompt('What is your name?'); 
+// alert('Hi ' + userName + ' and welcome to this small quiz.')
+//  let score = 0; 
 
 // let devEdu = prompt('Do you think I have a masters degree?').toLowerCase();
 //   if (devEdu == 'yes' || devEdu == 'y') {
@@ -88,21 +88,21 @@ alert('Hi ' + userName + ' and welcome to this small quiz.')
       //   }
  
 
-for(let i=0;i<4;i++){
-  let userGess = prompt('What do you think is my order in my family?'); 
+// for(let i=0;i<4;i++){
+//   let userGess = prompt('What do you think is my order in my family?'); 
   
-if(userGess == 3){
-  // console.log('You are correct');
-  alert('You are correct'); 
-  score++
-  break; 
-} else if(userGess > 3){
-  // console.log('too high');
-  alert('too high');
+// if(userGess == 3){
+//   // console.log('You are correct');
+//   alert('You are correct'); 
+//   score++
+//   break; 
+// } else if(userGess > 3){
+//   // console.log('too high');
+//   alert('too high');
   
-}else if(userGess < 3){
-  // console.log('too low');
-  alert('too low'); 
+// }else if(userGess < 3){
+//   // console.log('too low');
+//   alert('too low'); 
   
 
 }
@@ -122,5 +122,5 @@ if(userGess == 3){
 //     console.log('sorry it is not one of them');
 // }
 
-alert('you scored ' + score + ' out of 5')
-alert('Thank you ' + userName + ' for partisipating in this small quiz and have a nice day')
+// alert('you scored ' + score + ' out of 5')
+// alert('Thank you ' + userName + ' for partisipating in this small quiz and have a nice day')
