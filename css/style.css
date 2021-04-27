@@ -5,5 +5,11 @@ h1{background-color: black; color: blanchedalmond;
 h3{background-color:darkgreen;color: aqua;
   font-size: larger;text-align: center;}
 
-section{background-color: darkred;color: dimgrey;}
+#intro{background-color: darkred;color: dimgrey;
+  display: inline-block;
+}
 footer{text-align: center;color: gold;}
+
+ol{background-color: blueviolet; color: black;
+display: inline-block;
+}
