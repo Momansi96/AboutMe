@@ -2,23 +2,8 @@
 
 let userName = prompt('What is your name?'); 
 alert('Hi ' + userName + ' and welcome to this small quiz.')
+ let score = 0; 
 
-let devGender = prompt('Do you think I am male?').toLowerCase();
-if (devGender == 'yes' || devGender == 'y') {
-    // console.log('You are correct');
-    alert('You are correct'); 
-}
- else if (devGender == 'no' || devGender == 'n') {
-    // console.log('Unfortunately you are wrong');
-    alert('Unfortunately you are wrong'); 
-    } 
-  else {
-//    console.log('Please enter yes or no'); 
-    alert('Please enter only yes or no'); 
-  
-  }
-
-  
 let devEdu = prompt('Do you think I have a masters degree?').toLowerCase();
   if (devEdu == 'yes' || devEdu == 'y') {
     //   console.log('Unfortunately You are wrong');
@@ -28,6 +13,7 @@ let devEdu = prompt('Do you think I have a masters degree?').toLowerCase();
    else if (devEdu == 'no' || devEdu == 'n') {
     //   console.log('you are correct');
       alert('You are correct'); 
+      score++; 
       } 
     else {
     //  console.log('Please enter only yes or no');
@@ -44,6 +30,7 @@ if (devExp == 'yes' || devExp == 'y') {
  else if (devExp == 'no' || devExp == 'n') {
     // console.log('Unfortunately you are wrong');
     alert('You are correct'); 
+    score++;
     } 
   else {
 //    console.log('Please enter yes or no'); 
@@ -60,6 +47,7 @@ if (devExp == 'yes' || devExp == 'y') {
    else if (devHob == 'no' || devHob == 'n') {
       // console.log('Unfortunately you are wrong');
       alert('You are correct'); 
+      score++;
       } 
     else {
   //    console.log('Please enter yes or no'); 
@@ -71,6 +59,7 @@ if (devExp == 'yes' || devExp == 'y') {
     if (devWatch == 'yes' || devWatch == 'y') {
         // console.log('You are correct');
         alert('You are correct'); 
+        score++;
     }
      else if (devWatch == 'no' || devWatch == 'n') {
         // console.log('Unfortunately you are wrong');
@@ -86,6 +75,7 @@ if (devExp == 'yes' || devExp == 'y') {
       if (devEnjoy == 'yes' || devEnjoy == 'y') {
           // console.log('You are correct');
           alert('You are correct'); 
+          score++;
       }
        else if (devEnjoy == 'no' || devEnjoy == 'n') {
           // console.log('Unfortunately you are wrong');
@@ -98,5 +88,5 @@ if (devExp == 'yes' || devExp == 'y') {
         }
 
 
-
+alert('you scored ' + score + ' out of 5')
 alert('Thank you ' + userName + ' for partisipating in this small quiz and have a nice day')
