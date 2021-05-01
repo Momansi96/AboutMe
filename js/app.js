@@ -125,13 +125,11 @@ for (let j=0;j < hobb.length;j++) {
 if (cond === false) {
     alert('sorry it is not one of them'); 
 }
-<<<<<<< HEAD
 
 alert('my hobbies are many some of them are: manga, anime, movies and football')
-=======
+
 }
 q7();
->>>>>>> ac37a4a17c791e92f764f1af6d73e286fdeda670
 alert('you scored ' + score + ' out of 7')
 alert('Thank you ' + userName + ' for partisipating in this small quiz and have a nice day')
       
